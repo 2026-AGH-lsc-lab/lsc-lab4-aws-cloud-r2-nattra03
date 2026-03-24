@@ -1,0 +1,15 @@
+--- LAMBDA ZIP ---
+{"results": [{"index": 35859, "distance": 12.001459121704102}, {"index": 24682, "distance": 12.059946060180664}, {"index": 35397, "distance": 12.487079620361328}, {"index": 20160, "distance": 12.489519119262695}, {"index": 30454, "distance": 12.499402046203613}], "query_time_ms": 70.223}
+
+
+--- LAMBDA CONTAINER ---
+{"results": [{"index": 35859, "distance": 12.001459121704102}, {"index": 24682, "distance": 12.059946060180664}, {"index": 35397, "distance": 12.487079620361328}, {"index": 20160, "distance": 12.489519119262695}, {"index": 30454, "distance": 12.499402046203613}], "query_time_ms": 77.077, "instance_id": "2026/03/23/[$LATEST]b265c48b7c394351822104c419daaa2b", "cold_start": true}
+
+
+--- EC2 ---
+{"instance_id":"ip-172-31-3-243.ec2.internal","query_time_ms":22.621,"results":[{"distance":12.001459121704102,"index":35859},{"distance":12.059946060180664,"index":24682},{"distance":12.487079620361328,"index":35397},{"distance":12.489519119262695,"index":20160},{"distance":12.499402046203613,"index":30454}]}
+
+
+--- FARGATE ---
+{"instance_id":"3716f474b9f5","query_time_ms":31.386,"results":[{"distance":12.001459121704102,"index":35859},{"distance":12.059946060180664,"index":24682},{"distance":12.487079620361328,"index":35397},{"distance":12.489519119262695,"index":20160},{"distance":12.499402046203613,"index":30454}]}
+
